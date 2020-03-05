@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  
+  nav{
+      background-color: #C25D50;
+      display: flex;
+      color: white;
+      height: 50px;
+      align-items: center;
+
+  }
+
+  .nav-logo{
+    Font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    Font-size: 25px;
+    
+    Font-weight: 400;
+    
+    Line-height: 15.6px;
+    
+    color: white;
+    padding-left: 15px;
+  }
+
+  .nav-logo i{
+      padding-right: 10px;
+  }
+
+  .nav-right{
+      display: flex;
+      margin-left: auto;
+      
+  }
+
+  .nav-right p{
+    padding: 0 10px 0 10px;
+    Font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+Font-size: 12px;
+
+Font-weight: 400;
+
+Line-height: 15.6px;
+
+justify-content: space-around;
+
+
+  }
+
+  .nav-right p:last-child{
+      padding-right: 40px;
+  }
+
+  .search-section{
+      display: block;
+      background-color: blueviolet;
+      background-image: url(https://www.avantiplc.com/wp-content/uploads/2019/09/MG_9395_children_small.jpg);
+      height: 1000px;
+
+  }
+
+  .back-ground-search{
+      background-color: #D2D4D5;
+      opacity: 0.9;
+      margin: 100px 10% 100px 10%;
+  }
+
+  .key-word{
+      display: flex;
+      justify-content: center;
+  }
+
+  .search-title{
+    Font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+font-size: 22px;
+
+Font-weight: bold;
+
+Line-height: 15.6px;
+color: white;
+display: flex;
+justify-content: center;
+
+
+  }
+
+  .search-box{
+      display: flex;
+      justify-content: center;
+  }
+
+button div .how-it-works{
+      display: flex;
+      justify-content: center;
+  }
+
+
+  .four-simple{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+
+  }
+  tewsting testing
+

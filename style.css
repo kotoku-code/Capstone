@@ -52,6 +52,10 @@ justify-content: space-around;
 
   }
 
+  .nav-right i{
+      padding-right: 5px;
+  }
+
   .nav-right p:last-child{
       padding-right: 40px;
   }
@@ -60,34 +64,48 @@ justify-content: space-around;
       display: block;
       background-color: blueviolet;
       background-image: url(https://www.avantiplc.com/wp-content/uploads/2019/09/MG_9395_children_small.jpg);
-      height: 1000px;
+      height: 400px;
 
   }
 
   .back-ground-search{
       background-color: #D2D4D5;
-      opacity: 0.9;
-      margin: 100px 10% 100px 10%;
+      opacity: 0.8;
+      margin: 100px 25% 100px 25%;
+      border-radius: 6px;
+      height: 130px;
   }
 
   .key-word{
       display: flex;
-      justify-content: center;
+      justify-content: start;
+      Font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+Font-size: 20px;
+
+Font-weight: bold;
+
+Line-height: 15.6px;
+
+color: rgb(43, 43, 43);
+margin-left: 6%;
+padding-bottom: 10px;
+padding-top: 40px;
   }
 
   .search-title{
     Font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
-font-size: 22px;
+font-size: 36px;
 
-Font-weight: bold;
+Font-weight: 600;
 
 Line-height: 15.6px;
 color: white;
 display: flex;
 justify-content: center;
-
-
+position: relative;
+top: 70px;
   }
 
   .search-box{
@@ -95,16 +113,433 @@ justify-content: center;
       justify-content: center;
   }
 
-button div .how-it-works{
+  .search-box input{
+width: 80%;
+background-color: white;
+height: 30px;
+  }
+
+.search-box  input[type="search"], textarea{
+    background-color : #FFFFFF;
+    color: white;
+  }
+
+  .search-box button{
+      background-color: #D45749;
+      width: 70px;
+      Font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+Font-size: 15px;
+
+Font-weight: 600;
+
+Line-height: 15.6px;
+
+color: white;
+  }
+
+.how-it-works{
       display: flex;
       justify-content: center;
   }
 
+  .how-it-works button{
+    background-color: #CED1D9;
+    border-radius: 3px;
+    bottom: 50px;
+    position: relative;
 
-  .four-simple{
-      display: grid;
-      grid-template-columns: 1fr 1fr;
+
 
   }
-  tewsting testing
 
+  .how-it-works div{
+    font-weight: 600;
+    Font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+Font-size: 16px;
+
+
+Line-height: 15.6px;
+
+color: rgb(43, 43, 43);
+padding: 5px;
+
+  }
+
+  .steps{
+      text-align: center;
+      margin-top: 50px;
+  }
+
+
+  .four-simple{
+
+  }
+
+  .steps-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+  }
+
+.red-band{
+    background-color: #E27F65;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 400px;
+
+}
+
+.grey{
+    background-color: #98A4A6;
+}
+
+.blue{
+    background-color: #509BD8;
+}
+
+footer{
+    margin-top: 60px;
+}
+
+.footer-nav{
+    display: grid;
+    grid-template-columns: 3fr 1fr 3fr;
+    Font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    Font-size: 20px;
+    
+    Font-weight: 600;
+    
+    Line-height: 15.6px;
+    
+    color: black
+    
+}
+
+.footer-nav-left{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+
+}
+
+.footer-nav-left p{
+    display: flex;
+    margin-top: 30px;
+
+}
+
+
+.footer-nav-right{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-nav-right p{
+    display: flex;
+    margin-top: 30px;
+}
+
+
+.footer-nav-icon{
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-mid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.mid-title{
+    Font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+Font-size: 22px;
+
+Font-weight: 800;
+
+Line-height: 15.6px;
+color: rgb(43, 43, 43);
+padding-bottom: 40px;
+padding-top: 60px;
+}
+
+.mid-text{
+    Font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    font-weight: 12px;
+    
+    Font-weight: 400;
+    
+    Line-height: 15.6px;
+    
+    color: rgb(43, 43, 43);
+    text-align: center;
+}
+
+.mid-input input{
+    width: 60%;
+    height: 30px;
+}
+
+.mid-input button{
+    height: 32px;
+    width: 15%;
+    background-color: #444444;
+    color: white;
+    Font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+Font-size: 12px;
+
+Font-weight: 400;
+
+Line-height: 15.6px;
+
+}
+
+.bottom-footer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: slategrey;
+    margin-top: 30px;
+}
+
+.bottom-footer-icons{
+    display: flex;
+}
+
+.bottom-footer-icons i{
+    padding: 30px 15px;
+
+}
+
+.bottom-footer-text{
+    display: flex;
+    margin-left: auto;
+    align-self: center;
+    padding-right: 20px;
+    Font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+Font-size: 22px;
+
+Font-weight: 400;
+
+Line-height: 15.6px;
+
+color: rgb(43, 43, 43);
+
+}
+
+
+/* Business search page */
+
+.b-search{
+    background-color: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+}
+
+.b-search-title{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.b-search-boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.b-search-result{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.result-articles{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.b-back-ground-img{
+    height: 300px;
+    background-image: url(https://www.harvard.edu/sites/all/themes/hedu2015/assets/img/shields/harvard-divinity.png);
+}
+
+
+.contact-section{
+    border: 2px solid black;
+}
+
+.contact-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-mini-grid{
+    border: 1px solid black;
+}
+
+.click{
+    background-color: wheat;
+}
+
+.contact-red{
+color: red;
+}
+
+.four-simple{
+    Font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+Font-size: 22px;
+
+Font-weight: 700;
+
+Line-height: 15.6px;
+
+color: #E48060;
+}
+
+.grid-units{
+    margin-top: 80px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid-units i{
+    margin-bottom: 20px;
+}
+
+.grid-units p{
+    margin-bottom: 20px;
+}
+
+
+.grid-units-title{
+    Font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+Font-size: 20px;
+
+Font-weight: 900;
+
+Line-height: 15.6px;
+
+color: rgb(43, 43, 43);
+
+}
+
+.grid-units-text{
+    Font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+Font-size: 12px;
+
+Font-weight: 400;
+
+Line-height: 15.6px;
+
+color: rgb(43, 43, 43);
+}
+
+.color-band{
+    margin-top: 50px;
+}
+
+.band-top{
+    Font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+Font-size: 32px;
+
+Font-weight: 600;
+
+Line-height: 15.6px;
+
+color: white;
+padding-bottom: 30px;
+}
+
+.band-bottom{
+    padding-bottom: 40px;
+    Font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    Font-size: 24px;
+    
+    Font-weight: 500;
+    
+    Line-height: 15.6px;
+    
+color: white;
+}
+
+.band-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+
+
+
+.red-band button{
+    background-color: white;
+    padding: 15px;
+    border-radius: 4px;
+
+
+}
+
+.red-band button div{
+    Font-size: 20px;
+    Font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+
+    Font-weight: 600;
+    
+    Line-height: 15.6px;
+    
+    color: tomato;
+
+}
+
+.band-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.band-right img{
+    border-radius: 50%;
+    height: 350px;
+    width: 80%;
+}
+
+.
+
+.footer-nav p{
+    Font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+Font-size: 12px;
+
+Font-weight: 400;
+
+Line-height: 15.6px;
+
+color: white;
+}

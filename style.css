@@ -51,7 +51,7 @@ nav {
 .search-section {
   display: block;
   background-color: blueviolet;
-  background-image: url(/Capstone/media/transport-vector.jpg);
+  background-image: url(/media/transport-vector.jpg);
   height: 400px;
 }
 
@@ -177,6 +177,7 @@ footer {
   font-weight: 600;
   line-height: 15.6px;
   background-color: black;
+  cursor: pointer;
 }
 
 .footer-nav-left {
@@ -267,6 +268,7 @@ footer {
   background-color: #1f1f1f;
   color: white;
   margin-top: 30px;
+  cursor: pointer;
 }
 
 .bottom-footer-icons {
@@ -384,7 +386,7 @@ footer {
 
 .b-back-ground-img {
   height: 300px;
-  background-image: url(/Capstone/media/orange.jfif);
+  background-image: url(/media/orange.jfif);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -636,6 +638,7 @@ footer {
   border-radius: 50%;
   height: 350px;
   width: 80%;
+  
 }
 
 .footer-nav p {

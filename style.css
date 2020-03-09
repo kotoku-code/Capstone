@@ -259,6 +259,7 @@ footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
+    cursor: pointer;
 }
 
 .mid-title{
@@ -272,6 +273,7 @@ Line-height: 15.6px;
 color: rgb(43, 43, 43);
 padding-bottom: 40px;
 padding-top: 60px;
+cursor: pointer;
 }
 
 .mid-text{

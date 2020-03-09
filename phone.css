@@ -83,6 +83,17 @@ margin: 0 auto;
                 margin-left: auto;
                 margin-right: auto;
             }
+
+            
+            .b-search-boxes p {
+                padding-top: 10px;
+            }
         
+            .result-articles {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 20px;
+                margin: 0 10%;
+            }
 
     }

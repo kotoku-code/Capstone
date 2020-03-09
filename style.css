@@ -348,6 +348,7 @@ color: rgb(43, 43, 43);
     background-color: #EEEEEE;
     display: flex;
     flex-direction: column;
+    margin-top: 70px;
 }
 
 .b-search-title{
@@ -355,18 +356,88 @@ color: rgb(43, 43, 43);
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    padding: 70px 0;
+}
+
+.b-search-title p{
+    Font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+Font-size: 30px;
+
+Font-weight: 400;
+
+Line-height: 15.6px;
+
+color: rgb(43, 43, 43);
 }
 
 .b-search-boxes{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-bottom: 100px;
 }
+
+.b-search-boxes div{
+    padding: 0 10px;
+}
+
+.b-search-boxes input{
+    height: 30px;
+}
+
+.b-search-boxes button{
+height: 30px;
+margin-top: 24px;
+Font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+Font-size: 12px;
+
+Font-weight: 600;
+
+Line-height: 15.6px;
+
+}
+
+.first-button{
+margin-right: 10px;  
+background-color: #3875D7;
+color: snow;
+}
+
+.next-button{
+    background-color: #E6AB5B;
+    color: snow;
+}
+
+
+.b-search-boxes p{
+    Font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+Font-size: 22px;
+
+Font-weight: 600;
+
+Line-height: 15.6px;
+
+color: rgb(43, 43, 43);
+padding-bottom: 10px;
+}
+
 
 .b-search-result{
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: center;
+    Font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+Font-size: 32px;
+
+Font-weight: 700;
+
+Line-height: 15.6px;
+
+color: rgb(43, 43, 43);
+padding: 90px 0 50px 0;
 }
 
 .result-articles{
@@ -377,29 +448,195 @@ color: rgb(43, 43, 43);
 
 .b-back-ground-img{
     height: 300px;
-    background-image: url(https://www.harvard.edu/sites/all/themes/hedu2015/assets/img/shields/harvard-divinity.png);
+    background-image: url(/Capstone/media/orange.jfif);
+    background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
 }
 
+.b-back-ground-img p{
+    Font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+Font-size: 22px;
+
+Font-weight: 800;
+
+Line-height: 15.6px;
+
+color: whitesmoke;
+display: flex;
+justify-content: center;
+margin-top: 150px;
+}
 
 .contact-section{
-    border: 2px solid black;
+    border: 3px solid #F5F5F5;
+    margin-top: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
+
+.contact-button {
+    display: flex;
+    margin-left: auto;
+    margin-top: 30px;
+    background-color: #519BD7;
+    color: whitesmoke;
+    height: 30px;
+    margin-right: 20px;
+    padding: 5px;
+    Font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+Font-size: 12px;
+
+Font-weight: 800;
+
+Line-height: 15.6px;
+
+}
+
+.contact-button i{
+    padding: 0 10px;
+}
+
+.contact-title{
+    Font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+Font-size: 32px;
+
+Font-weight: 600;
+
+Line-height: 15.6px;
+
+color: #E18C83;
+padding: 20px 0 10px 10px;
+}
+
+.contact-title i{
+    padding-right: 10px;
+    margin-left: 2%;
+}
+
 
 .contact-grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 15px;
 }
 
 .contact-mini-grid{
-    border: 1px solid black;
+    border: 6px solid #F5F5F5;
+    Font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+Font-size: 22px;
+
+Font-weight: 700;
+
+Line-height: 15.6px;
+
+color: rgb(43, 43, 43);
+display: flex;
+justify-content: center;
+padding: 10px 0;
+margin: 0 5%;
+}
+
+.contact-nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 60px 20px 60px;
+
+}
+
+.contact-nav i{
+    padding-right: 10px;
+    color: #B9D9F1;
+}
+
+.contact-nav p{
+    border-right: 1px solid darkslategray;
+    padding-right: 10px;
+    Font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+Font-size: 18px;
+
+Font-weight: 600;
+
+Line-height: 15.6px;
+
+color: rgb(43, 43, 43);
+}
+
+.contact-description{
+    Font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+Font-size: 22px;
+
+Font-weight: 600;
+
+Line-height: 15.6px;
+
+color: rgb(43, 43, 43);
+margin: 15px 5%;
 }
 
 .click{
-    background-color: wheat;
+    background-color: #F5F5F5;
+    Font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+Font-size: 32px;
+
+Font-weight: 600;
+
+Line-height: 15.6px;
+
+color: rgb(43, 43, 43);
+margin: 15px 5%;
+height: 150px;
+display: flex;
+justify-content: start;
+
+}
+
+
+.click i{
+    display: flex;
+    align-self: center;
+}
+
+.click-text{
+    display: flex;
+    align-self: center;
+    margin-left: 10%;
 }
 
 .contact-red{
-color: red;
+color: #E2928A;
+display: flex;
+justify-content: center;
+Font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+Font-size: 32px;
+
+Font-weight: 700;
+
+Line-height: 15.6px;
+padding: 20px 0;
+}
+
+.contact-red i{
+    padding-right: 10px;
+    position: relative;
+    bottom: 5px;
+}
+
+.map{
+    margin: 15px 5%;
+}
+
+.map img{
+    width: 100%;
+    height: 600px;
 }
 
 .four-simple{
@@ -542,4 +779,70 @@ Font-weight: 600;
 Line-height: 15.6px;
 
 color: black;
+}
+
+.fill-in-section{
+    margin: 80px 40% 80px 20%;
+}
+
+.fill-in-section p{
+    Font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+Font-size: 22px;
+
+Font-weight: 600;
+
+Line-height: 15.6px;
+
+color: rgb(43, 43, 43);
+padding: 15px 0;
+}
+
+.fill-in-section input{
+    width: 100%;
+    background-color: #DFE2E3;
+    height: 30px;
+    cursor: text;
+}
+
+.fill-in-section button{
+    background-color: #C25D50;
+    color: whitesmoke;
+    Font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+Font-size: 12px;
+
+Font-weight: 600;
+
+Line-height: 15.6px;
+width: 20%;
+height: 25px;
+
+}
+
+.fill-button{
+    display: flex;
+    padding: 15px 0;
+    cursor: pointer;
+
+}
+
+.fill-button p{
+    padding-left: 20px;
+    Font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+Font-size: 16px;
+
+Font-weight: 900;
+
+Line-height: 15.6px;
+
+color: green;
+position: relative;
+bottom: 10px;
+
+}
+
+.fill-button p:hover{
+    color: black;
 }

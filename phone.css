@@ -1,157 +1,151 @@
 @media only screen and (max-width: 768px) {
+  .search-title {
+    visibility: hidden;
+  }
 
+  .nav-right-crowded {
+    display: none;
+  }
 
-    .search-title {
-        visibility: hidden;
-    }
+  .back-ground-search {
+    margin: 0 11% 100px 11%;
+  }
 
-        .nav-right-crowded{
-display: none;
-        }
+  .search-box {
+    margin: 0 5%;
+  }
 
-        .back-ground-search {
-            margin: 0px 11% 100px 11%;
-        }
+  .footer-nav {
+    display: none;
+  }
 
-        .search-box {
-            
-            margin: 0 5%;
-        }
-
-        .footer-nav {
-            display: none;
-        }
-
-        .footer-mid{
-display: flex;
-flex-direction: column;
+  .footer-mid {
+    display: flex;
+    flex-direction: column;
     margin-top: -30px;
+  }
+
+
+  .mid-text {
+    display: none;
+  }
+
+  .mid-input {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .bottom-footer-text {
+    display: none;
+  }
+
+  .steps-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .four-simple {
+    line-height: 21px;
+  }
+
+  .red-band {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .band-right {
+    display: none;
+  }
+
+  .band-right img {
+    display: none;
+  }
+
+  .band-left {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .band-top {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .band-bottom {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .b-search-boxes p {
+    padding-top: 10px;
+  }
+
+  .result-articles {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin: 0 10%;
+  }
+
+  .contact-nav {
+    display: none;
+  }
+
+  .contact-description {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .contact-title {
+    padding: 20px 10px 20px 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact-title i {
+    display: none;
+  }
+
+  .contact-button {
+    margin: 30px auto;
+  }
+
+  .click {
+    font-size: 20px;
+    color: rgb(43, 43, 43);
+    margin: 15px 5%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .click-text {
+    display: flex;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .map img {
+    width: 100%;
+    height: 400px;
+  }
+
+  .fill-button p {
+    display: none;
+  }
+
+  .fill-in-section button {
+    width: 100%;
+  }
 }
-        
-
-        .mid-text{
-display: none;
-        }
-
-        .mid-input{
-width: 80%;
-margin: 0 auto;
-        }
-
-        .bottom-footer-text{
-            display: none;
-        }
-
-        .steps-grid {
-            display: grid;
-            grid-template-columns: 1fr;
-        }
-
-        .four-simple{
-            line-height: 21px;
-        }
-
-        .red-band {
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-            justify-content: center;
-        }
-
-        .band-right{
-            display: none;
-        }
-
-        .band-right img{
-            display: none;
-        }
-
-        .band-left{
-            display: flex;
-            align-items: center;
-                margin-left: auto;
-                margin-right: auto;
-            }
-
-            .band-top{
-                margin-left: auto;
-                margin-right: auto;
-  
-            }
-
-            .band-bottom{
-                margin-left: auto;
-                margin-right: auto;
-            }
-
-            
-            .b-search-boxes p {
-                padding-top: 10px;
-            }
-        
-            .result-articles {
-                display: grid;
-                grid-template-columns: 1fr;
-                gap: 20px;
-                margin: 0 10%;
-            }
-
-            .contact-nav{
-                display: none;
-            }
-
-            .contact-description {
-                Font-size: 15px;
-                text-align: center;
-            }
-
-            .contact-grid {
-                display: grid;
-                grid-template-columns: 1fr;
-            }
-
-            .contact-title {
-                padding: 20px 10px 20px 10px;
-                    display: flex;
-                    justify-content: center;
-                }
-
-                .contact-title i {
-                    display: none;
-                }
-
-                .contact-button{
-                    margin: 30px auto;
-                }
-
-                .click {
-                    Font-size: 20px;
-                    color: rgb(43, 43, 43);
-                    margin: 15px 5%;
-                    height: 100px;
-                    display: flex;
-                    justify-content: center;
-                }
-
-                .click-text {
-                    display: flex;
-                    align-self: center;
-                    margin-left: auto;
-                    margin-right: auto;
-            }
-
-            .map img {
-                width: 100%;
-                height: 400px;
-            }
-
-            .fill-button p {
-                display: none;
-            }
-
-            .fill-in-section button {
-                width: 100%;
-            }
-
-
-        }

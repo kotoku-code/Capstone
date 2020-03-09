@@ -96,4 +96,62 @@ margin: 0 auto;
                 margin: 0 10%;
             }
 
-    }
+            .contact-nav{
+                display: none;
+            }
+
+            .contact-description {
+                Font-size: 15px;
+                text-align: center;
+            }
+
+            .contact-grid {
+                display: grid;
+                grid-template-columns: 1fr;
+            }
+
+            .contact-title {
+                padding: 20px 10px 20px 10px;
+                    display: flex;
+                    justify-content: center;
+                }
+
+                .contact-title i {
+                    display: none;
+                }
+
+                .contact-button{
+                    margin: 30px auto;
+                }
+
+                .click {
+                    Font-size: 20px;
+                    color: rgb(43, 43, 43);
+                    margin: 15px 5%;
+                    height: 100px;
+                    display: flex;
+                    justify-content: center;
+                }
+
+                .click-text {
+                    display: flex;
+                    align-self: center;
+                    margin-left: auto;
+                    margin-right: auto;
+            }
+
+            .map img {
+                width: 100%;
+                height: 400px;
+            }
+
+            .fill-button p {
+                display: none;
+            }
+
+            .fill-in-section button {
+                width: 100%;
+            }
+
+
+        }

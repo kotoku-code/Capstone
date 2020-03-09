@@ -63,7 +63,7 @@ justify-content: space-around;
   .search-section{
       display: block;
       background-color: blueviolet;
-      background-image: url(https://www.avantiplc.com/wp-content/uploads/2019/09/MG_9395_children_small.jpg);
+      background-image: url(/Capstone/media/transport-vector.jpg);
       height: 400px;
 
   }
@@ -117,6 +117,7 @@ top: 70px;
 width: 80%;
 background-color: white;
 height: 30px;
+cursor: text;
   }
 
 .search-box  input[type="search"], textarea{
@@ -136,6 +137,7 @@ Font-weight: 600;
 Line-height: 15.6px;
 
 color: white;
+cursor: pointer;
   }
 
 .how-it-works{
@@ -200,23 +202,24 @@ padding: 5px;
 }
 
 footer{
-    margin-top: 60px;
+    background-color: black;
 }
 
 .footer-nav{
     display: grid;
     grid-template-columns: 3fr 1fr 3fr;
     Font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-
+padding-top: 50px;
     Font-size: 20px;
     
     Font-weight: 600;
     
     Line-height: 15.6px;
     
-    color: black
+    background-color: black
     
 }
+
 
 .footer-nav-left{
     border-top: 2px solid black;
@@ -248,11 +251,12 @@ footer{
 
 
 .footer-nav-icon{
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 50%;
     padding: 30px;
     display: flex;
     justify-content: center;
+    color: white;
 }
 
 .footer-mid{
@@ -268,9 +272,8 @@ footer{
 Font-size: 22px;
 
 Font-weight: 800;
-
+color: white;
 Line-height: 15.6px;
-color: rgb(43, 43, 43);
 padding-bottom: 40px;
 padding-top: 60px;
 cursor: pointer;
@@ -278,15 +281,18 @@ cursor: pointer;
 
 .mid-text{
     Font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-
+color: white;
     font-weight: 12px;
     
     Font-weight: 400;
     
     Line-height: 15.6px;
     
-    color: rgb(43, 43, 43);
     text-align: center;
+}
+
+.mid-text a{
+    color: tomato;
 }
 
 .mid-input input{
@@ -313,7 +319,8 @@ Line-height: 15.6px;
     display: flex;
     justify-content: center;
     align-content: center;
-    background-color: slategrey;
+    background-color: #1F1F1F;
+    color: white;
     margin-top: 30px;
 }
 
@@ -339,12 +346,19 @@ Font-weight: 400;
 
 Line-height: 15.6px;
 
-color: rgb(43, 43, 43);
+color: white;
 
 }
 
 
 /* Business search page */
+
+.search-result{
+    margin-bottom: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 
 .b-search{
     background-color: #EEEEEE;
@@ -780,12 +794,13 @@ Font-weight: 600;
 
 Line-height: 15.6px;
 
-color: black;
+color: white;
 }
 
 .fill-in-section{
-    margin: 80px 40% 80px 20%;
-}
+        margin: 80px 30%;
+    }
+
 
 .fill-in-section p{
     Font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;

@@ -549,12 +549,13 @@ Font-size: 22px;
 Font-weight: 700;
 
 Line-height: 15.6px;
-
+cursor: pointer;
 color: rgb(43, 43, 43);
 display: flex;
 justify-content: center;
 padding: 10px 0;
 margin: 0 5%;
+
 }
 
 .contact-nav{
@@ -581,6 +582,7 @@ Font-weight: 600;
 Line-height: 15.6px;
 
 color: rgb(43, 43, 43);
+cursor: pointer;
 }
 
 .contact-description{
@@ -590,7 +592,7 @@ Font-size: 22px;
 
 Font-weight: 600;
 
-Line-height: 15.6px;
+Line-height: 25.6px;
 
 color: rgb(43, 43, 43);
 margin: 15px 5%;
@@ -611,7 +613,7 @@ margin: 15px 5%;
 height: 150px;
 display: flex;
 justify-content: start;
-
+cursor: pointer;
 }
 
 

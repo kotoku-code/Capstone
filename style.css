@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 nav {
   background-color: #c25d50;
   display: flex;
@@ -142,7 +141,6 @@ textarea {
   text-align: center;
   margin-top: 50px;
 }
-
 
 .steps-grid {
   display: grid;
@@ -384,6 +382,11 @@ footer {
   gap: 20px;
 }
 
+.result-articles a {
+  display: flex;
+  justify-content: center;
+}
+
 .b-back-ground-img {
   height: 300px;
   background-image: url(/media/orange.jfif);
@@ -392,7 +395,7 @@ footer {
   background-size: cover;
 }
 
-.b-back-ground-img p {
+.b-back-ground-img a {
   font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 22px;
   font-weight: 800;
@@ -504,7 +507,7 @@ footer {
   margin: 15px 5%;
   height: 150px;
   display: flex;
-  justify-content: start;
+  justify-content: center;
   cursor: pointer;
 }
 
@@ -516,7 +519,8 @@ footer {
 .click-text {
   display: flex;
   align-self: center;
-  margin-left: 10%;
+    font-size: 30px;
+    justify-content: center;
 }
 
 .contact-red {
@@ -592,7 +596,7 @@ footer {
   font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 32px;
   font-weight: 600;
-  line-height: 15.6px;
+  line-height: 25.6px;
   color: white;
   padding-bottom: 30px;
 }
@@ -618,6 +622,7 @@ footer {
   background-color: white;
   padding: 15px;
   border-radius: 4px;
+  width: 20%;
 }
 
 .red-band button div {
@@ -638,7 +643,6 @@ footer {
   border-radius: 50%;
   height: 350px;
   width: 80%;
-  
 }
 
 .footer-nav p {

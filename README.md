@@ -3,7 +3,7 @@
 
 > personnal project using so far learned skills in CSS&HTML.
 
-![screenshot](/Capstone/media/demo.PNG)
+![screenshot]()
 
 
 ## Built With
@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/kotoku-code/Capstone/tree/feature-branch)
+[Live Demo Link](file:///E:/documents/Capstone/Capstone/media/demo2.PNG)
 
 
 ### Usage

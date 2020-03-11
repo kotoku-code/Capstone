@@ -519,8 +519,8 @@ footer {
 .click-text {
   display: flex;
   align-self: center;
-    font-size: 30px;
-    justify-content: center;
+  font-size: 30px;
+  justify-content: center;
 }
 
 .contact-red {

@@ -3,7 +3,7 @@
 
 > personnal project using so far learned skills in CSS&HTML.
 
-![screenshot]()
+![screenshot](file:///E:/documents/Capstone/Capstone/media/demo2.PNG)
 
 
 ## Built With
@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link](file:///E:/documents/Capstone/Capstone/media/demo2.PNG)
+[Live Demo Link](https://stupefied-wing-dd5465.netlify.com/)
 
 
 ### Usage

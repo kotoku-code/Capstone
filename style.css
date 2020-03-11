@@ -14,7 +14,7 @@ nav {
 
 .nav-logo {
   font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 25px;
+  font-size: 23px;
   font-weight: 400;
   line-height: 15.6px;
   color: white;
@@ -33,7 +33,7 @@ nav {
 .nav-right p {
   padding: 0 10px 0 10px;
   font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 15.6px;
   justify-content: space-around;
@@ -66,7 +66,7 @@ nav {
   display: flex;
   justify-content: start;
   font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 20px;
+  font-size: 23px;
   font-weight: bold;
   line-height: 15.6px;
   color: rgb(43, 43, 43);
@@ -77,7 +77,7 @@ nav {
 
 .search-title {
   font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 36px;
+  font-size: 33px;
   font-weight: 600;
   line-height: 15.6px;
   color: white;
@@ -109,7 +109,7 @@ textarea {
   background-color: #d45749;
   width: 70px;
   font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 600;
   line-height: 15.6px;
   color: white;
@@ -131,7 +131,7 @@ textarea {
 .how-it-works div {
   font-weight: 600;
   font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 15.6px;
   color: rgb(43, 43, 43);
   padding: 5px;
@@ -171,7 +171,7 @@ footer {
   grid-template-columns: 3fr 1fr 3fr;
   font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding-top: 50px;
-  font-size: 20px;
+  font-size: 23px;
   font-weight: 600;
   line-height: 15.6px;
   background-color: black;
@@ -221,7 +221,7 @@ footer {
 
 .mid-title {
   font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 22px;
+  font-size: 23px;
   font-weight: 800;
   color: white;
   line-height: 15.6px;
@@ -254,7 +254,7 @@ footer {
   background-color: #444;
   color: white;
   font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 15.6px;
 }
@@ -283,7 +283,7 @@ footer {
   align-self: center;
   padding-right: 20px;
   font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 22px;
+  font-size: 23px;
   font-weight: 400;
   line-height: 15.6px;
   color: white;
@@ -315,7 +315,7 @@ footer {
 
 .b-search-title p {
   font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 30px;
+  font-size: 33px;
   font-weight: 400;
   line-height: 15.6px;
   color: rgb(43, 43, 43);
@@ -340,7 +340,7 @@ footer {
   height: 30px;
   margin-top: 24px;
   font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
   line-height: 15.6px;
 }
@@ -358,7 +358,7 @@ footer {
 
 .b-search-boxes p {
   font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 22px;
+  font-size: 23px;
   font-weight: 600;
   line-height: 15.6px;
   color: rgb(43, 43, 43);
@@ -369,7 +369,7 @@ footer {
   display: flex;
   justify-content: center;
   font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 32px;
+  font-size: 33px;
   font-weight: 700;
   line-height: 15.6px;
   color: rgb(43, 43, 43);
@@ -397,7 +397,7 @@ footer {
 
 .b-back-ground-img a {
   font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 22px;
+  font-size: 23px;
   font-weight: 800;
   line-height: 15.6px;
   color: whitesmoke;
@@ -434,7 +434,7 @@ footer {
 
 .contact-title {
   font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 32px;
+  font-size: 33px;
   font-weight: 600;
   line-height: 15.6px;
   color: #e18c83;
@@ -455,7 +455,7 @@ footer {
 .contact-mini-grid {
   border: 6px solid #f5f5f5;
   font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 22px;
+  font-size: 23px;
   font-weight: 700;
   line-height: 15.6px;
   cursor: pointer;
@@ -481,7 +481,7 @@ footer {
   border-right: 1px solid darkslategray;
   padding-right: 10px;
   font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 600;
   line-height: 15.6px;
   color: rgb(43, 43, 43);
@@ -490,7 +490,7 @@ footer {
 
 .contact-description {
   font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 22px;
+  font-size: 23px;
   font-weight: 600;
   line-height: 25.6px;
   color: rgb(43, 43, 43);
@@ -500,7 +500,7 @@ footer {
 .click {
   background-color: #f5f5f5;
   font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 32px;
+  font-size: 33px;
   font-weight: 600;
   line-height: 15.6px;
   color: rgb(43, 43, 43);
@@ -528,7 +528,7 @@ footer {
   display: flex;
   justify-content: center;
   font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 32px;
+  font-size: 33px;
   font-weight: 700;
   line-height: 15.6px;
   padding: 20px 0;
@@ -551,7 +551,7 @@ footer {
 
 .four-simple {
   font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 22px;
+  font-size: 23px;
   font-weight: 700;
   line-height: 15.6px;
   color: #e48060;
@@ -574,7 +574,7 @@ footer {
 
 .grid-units-title {
   font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 20px;
+  font-size: 23px;
   font-weight: 900;
   line-height: 15.6px;
   color: rgb(43, 43, 43);
@@ -582,7 +582,7 @@ footer {
 
 .grid-units-text {
   font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 15.6px;
   color: rgb(43, 43, 43);
@@ -604,7 +604,7 @@ footer {
 .band-bottom {
   padding-bottom: 40px;
   font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 24px;
+  font-size: 23px;
   font-weight: 500;
   line-height: 15.6px;
   color: white;
@@ -626,7 +626,7 @@ footer {
 }
 
 .red-band button div {
-  font-size: 20px;
+  font-size: 23px;
   font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 600;
   line-height: 15.6px;
@@ -647,7 +647,7 @@ footer {
 
 .footer-nav p {
   font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 22px;
+  font-size: 23px;
   font-weight: 600;
   line-height: 15.6px;
   color: white;
@@ -659,7 +659,7 @@ footer {
 
 .fill-in-section p {
   font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 22px;
+  font-size: 23px;
   font-weight: 600;
   line-height: 15.6px;
   color: rgb(43, 43, 43);
@@ -677,7 +677,7 @@ footer {
   background-color: #c25d50;
   color: whitesmoke;
   font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
   line-height: 15.6px;
   width: 20%;
@@ -693,7 +693,7 @@ footer {
 .fill-button p {
   padding-left: 20px;
   font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 900;
   line-height: 15.6px;
   color: green;
